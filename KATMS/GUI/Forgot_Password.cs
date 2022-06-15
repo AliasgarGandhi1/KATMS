@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace KATMS.GUI
 {
-    public partial class Login : Form
+    public partial class Forgot_Password : Form
     {
-        public Login()
+        public Forgot_Password()
         {
             InitializeComponent();
         }
-
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
