@@ -1,0 +1,12 @@
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.csproj.AssemblyReference.cache
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.csproj.SuggestedBindingRedirects.cache
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.Customer_Car.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.GUI.Login.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.csproj.GenerateResource.cache
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\bin\Debug\KATMS.exe.config
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\bin\Debug\KATMS.exe
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\bin\Debug\KATMS.pdb
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.Properties.Resources.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.csproj.CoreCompileInputs.cache
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.exe
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.pdb
