@@ -10,20 +10,19 @@ using System.Windows.Forms;
 
 namespace KATMS.GUI
 {
-    public partial class Login : Form
+    public partial class Inventory_add : Form
     {
-        public Login()
+        public Inventory_add()
         {
             InitializeComponent();
         }
 
-
-        private void Login_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void roundedButton1_Click(object sender, EventArgs e)
         {
 
         }
