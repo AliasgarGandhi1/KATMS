@@ -59,5 +59,35 @@ namespace KATMS.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_480px {
+            get {
+                object obj = ResourceManager.GetObject("home_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_andrea_piacquadio_3807811 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-andrea-piacquadio-3807811", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_torsten_dettlaff_70912 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-torsten-dettlaff-70912", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -20,9 +20,10 @@ namespace KATMS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
+            pnlCustDetails.Visible = true;
+            pnlCarDetails.Visible = true;
+            pnlNewCust.Visible = true;
+            pnlDefault.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -37,7 +38,10 @@ namespace KATMS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            pnlCustDetails.Visible = false;
+            pnlCarDetails.Visible = false;
+            pnlNewCust.Visible = false;
+            pnlDefault.Visible = true;
         }
 
         private void roundedPanel1_Paint(object sender, PaintEventArgs e)
@@ -58,6 +62,13 @@ namespace KATMS
         private void btHome_MouseHover(object sender, EventArgs e)
         {
             pbtHome.BackColor = Color.Transparent;
+        }
+
+        private void btExixtingCust_Click(object sender, EventArgs e)
+        {
+            ExistingCustomer excust = new ExistingCustomer();
+            excust.Show();
+            this.Hide();
         }
     }
 }

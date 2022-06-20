@@ -10,3 +10,7 @@ E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.Properties.R
 E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.csproj.CoreCompileInputs.cache
 E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.exe
 E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.pdb
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.GUI.ExistingCustomer.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.GUI.Forgot_Password.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.GUI.SignUp.resources
+E:\CollegeDoc\Sem4\System_Development_Project\KATMS\obj\Debug\KATMS.GUI.Loading.resources
