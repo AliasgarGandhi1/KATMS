@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using KATMS.GUI;
 
 namespace KATMS
 {
@@ -16,7 +17,7 @@ namespace KATMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Customer_Car());
+            Application.Run(new Loading());
         }
     }
 }

@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btSignIn = new KATMS.Additional_Controls.RoundedButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.lblForgotPass = new System.Windows.Forms.LinkLabel();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblForgotPass = new System.Windows.Forms.LinkLabel();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btSignIn = new KATMS.Additional_Controls.RoundedButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,54 +56,19 @@
             this.panel1.Size = new System.Drawing.Size(622, 693);
             this.panel1.TabIndex = 1;
             // 
-            // pictureBox1
+            // lblForgotPass
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(864, 693);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btSignIn
-            // 
-            this.btSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(173)))));
-            this.btSignIn.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(173)))));
-            this.btSignIn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.btSignIn.BorderRadius = 40;
-            this.btSignIn.BorderSize = 3;
-            this.btSignIn.FlatAppearance.BorderSize = 2;
-            this.btSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSignIn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.btSignIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
-            this.btSignIn.Location = new System.Drawing.Point(100, 416);
-            this.btSignIn.Name = "btSignIn";
-            this.btSignIn.Size = new System.Drawing.Size(210, 102);
-            this.btSignIn.TabIndex = 3;
-            this.btSignIn.Text = "Sign In";
-            this.btSignIn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
-            this.btSignIn.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(94, 183);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 32);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Username";
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtUserName.Location = new System.Drawing.Point(290, 182);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(251, 34);
-            this.txtUserName.TabIndex = 5;
+            this.lblForgotPass.AutoSize = true;
+            this.lblForgotPass.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.lblForgotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
+            this.lblForgotPass.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
+            this.lblForgotPass.Location = new System.Drawing.Point(94, 328);
+            this.lblForgotPass.Name = "lblForgotPass";
+            this.lblForgotPass.Size = new System.Drawing.Size(216, 32);
+            this.lblForgotPass.TabIndex = 8;
+            this.lblForgotPass.TabStop = true;
+            this.lblForgotPass.Text = "Forgot Password?";
+            this.lblForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblForgotPass_LinkClicked);
             // 
             // txtPassword
             // 
@@ -125,18 +90,56 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Password";
             // 
-            // lblForgotPass
+            // txtUserName
             // 
-            this.lblForgotPass.AutoSize = true;
-            this.lblForgotPass.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblForgotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
-            this.lblForgotPass.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
-            this.lblForgotPass.Location = new System.Drawing.Point(94, 328);
-            this.lblForgotPass.Name = "lblForgotPass";
-            this.lblForgotPass.Size = new System.Drawing.Size(216, 32);
-            this.lblForgotPass.TabIndex = 8;
-            this.lblForgotPass.TabStop = true;
-            this.lblForgotPass.Text = "Forgot Password?";
+            this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtUserName.Location = new System.Drawing.Point(290, 182);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(251, 34);
+            this.txtUserName.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(94, 183);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 32);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Username";
+            // 
+            // btSignIn
+            // 
+            this.btSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(173)))));
+            this.btSignIn.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(173)))));
+            this.btSignIn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.btSignIn.BorderRadius = 40;
+            this.btSignIn.BorderSize = 3;
+            this.btSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btSignIn.FlatAppearance.BorderSize = 2;
+            this.btSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btSignIn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.btSignIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
+            this.btSignIn.Location = new System.Drawing.Point(100, 416);
+            this.btSignIn.Name = "btSignIn";
+            this.btSignIn.Size = new System.Drawing.Size(210, 102);
+            this.btSignIn.TabIndex = 3;
+            this.btSignIn.Text = "Sign In";
+            this.btSignIn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
+            this.btSignIn.UseVisualStyleBackColor = false;
+            this.btSignIn.Click += new System.EventHandler(this.btSignIn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(864, 693);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Login
             // 
@@ -145,6 +148,7 @@
             this.ClientSize = new System.Drawing.Size(1482, 693);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
