@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>KATMS</RootNamespace>
     <AssemblyName>KATMS</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,6 +71,12 @@
     <Compile Include="GUI\Forgot_Password.Designer.cs">
       <DependentUpon>Forgot_Password.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\List_Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\List_Employees.designer.cs">
+      <DependentUpon>List_Employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +89,29 @@
     <Compile Include="GUI\Loading.Designer.cs">
       <DependentUpon>Loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\New_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\New_Employee.designer.cs">
+      <DependentUpon>New_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Search_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Search_Employee.designer.cs">
+      <DependentUpon>Search_Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Update_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Update_Employee.designer.cs">
+      <DependentUpon>Update_Employee.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,14 +125,26 @@
     <EmbeddedResource Include="GUI\Forgot_Password.resx">
       <DependentUpon>Forgot_Password.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\List_Employees.resx">
+      <DependentUpon>List_Employees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\New_Employee.resx">
+      <DependentUpon>New_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Search_Employee.resx">
+      <DependentUpon>Search_Employee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Update_Employee.resx">
+      <DependentUpon>Update_Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
