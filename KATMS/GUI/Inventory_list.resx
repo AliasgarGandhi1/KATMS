@@ -117,4 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAydJREFUeF7t
+        1y2OVFEQxfEBASQkWBIchg1gwOJYA44NILFILIvAoUGxAxQOBBqBIcEQAsO54T8JmWSmu6vrdL1+t37J
+        FXx0nXrlzklrrbXWWmutHZPT09P74/HHdkg6/CO973o/9B7z1+0QdPAnej/1zvzSe8o/Nycd+pne73H1
+        c/7oveC/tWw67hW9l+PSG7zSu8rPWgYd9Jre63HdLb3Ru8HP2z50yJt678ZVd/Re7xZjWoQOeFvvw7hm
+        0Ee9O4xru9Dh7up9Hlfc0xe9e4xt29DBRsH6Oq6X5JveQ8a3y+hQZwUrWxe2TXSg8wUrWxe2i+gwFxWs
+        bF3Y/qdjbFuwsnVh0wF2LVjZ5i1s+vBowco2X2HTB+9bsLLNU9j0oVkFK9v6C5s+MLtgZRuF7QHrros+
+        zFWwsq2vsOmD3AUr23oKmz7kUAUr23EXNi1fVbCyHV9h08LVBSvb8RQ2LbqUgpVt+YVNCy6tYGVbbmHT
+        YqNgfRpbrtzyCpsWWnrByracwqZFjqVgZasvbFrg2ApWtrrCpuBjLVjZDlvYFLaWgpXNX9gUsLaClW0U
+        tuucK5cGj4L1dqS0S+UXNg1ce8HKllfYNGiWgpVt/8KmAbMVrGzxwqYfzlqwsu1e2PSD2QtWtu0Lm/5j
+        FyyPUdiec+Y8/2bPizPUYY9pcYY67DEtzlCHPabFGeqwx7Q4Qx32mBZnqMMe0+IMddhjWpyhDntMizPU
+        YY9pcYY67DEtzlCHPabFGeqwhw0xYYyxIaYOe9gQE8YYG2LqsIcNMWGMsSGmDnvYEBPGGBti6rCHDTFh
+        jLEhpg572BATxhgbYuqwhw0xYYyxIaYOe9gQE8YYG2LqsIcNMWGMsSGmDnvYEBPGGBti6rCHDTFhjLEh
+        pg572BATxhgbYuqwhw0xYYyxIaYOe9gQE8YYG2LqsIcNMWGMsSGmDnvYEBPGGBti6rCHDTFhjLEhpg57
+        2BATxhgbYuqwhw0xYYyxIaYOe9gQE8YYG2LqsIcNMWGMsSGmDnvYEBPGGBti6rCHDTFhjLEhpg572BAT
+        xhgbYlprrbXWWmuttdZa2+Dk5C8qnexru4OfJQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="parttbBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 17</value>
+  </metadata>
+  <metadata name="kATMSdbDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="parttbTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>390, 17</value>
+  </metadata>
 </root>

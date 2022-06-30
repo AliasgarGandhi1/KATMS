@@ -67,8 +67,8 @@
             this.btBack.Location = new System.Drawing.Point(353, 347);
             this.btBack.Name = "btBack";
             this.btBack.Size = new System.Drawing.Size(206, 94);
-            this.btBack.TabIndex = 6;
-            this.btBack.Text = "Back";
+            this.btBack.TabIndex = 3;
+            this.btBack.Text = "&Back";
             this.btBack.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
             this.btBack.UseVisualStyleBackColor = false;
             this.btBack.Click += new System.EventHandler(this.roundedButton1_Click);
@@ -79,7 +79,7 @@
             this.txtEmailId.Location = new System.Drawing.Point(295, 237);
             this.txtEmailId.Name = "txtEmailId";
             this.txtEmailId.Size = new System.Drawing.Size(251, 34);
-            this.txtEmailId.TabIndex = 5;
+            this.txtEmailId.TabIndex = 1;
             // 
             // label1
             // 
@@ -107,8 +107,8 @@
             this.btSend.Location = new System.Drawing.Point(105, 347);
             this.btSend.Name = "btSend";
             this.btSend.Size = new System.Drawing.Size(206, 94);
-            this.btSend.TabIndex = 3;
-            this.btSend.Text = "Send";
+            this.btSend.TabIndex = 2;
+            this.btSend.Text = "&Send";
             this.btSend.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
             this.btSend.UseVisualStyleBackColor = false;
             this.btSend.Click += new System.EventHandler(this.btSend_Click);
@@ -123,6 +123,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Forgot_Password
             // 
@@ -135,6 +136,7 @@
             this.Name = "Forgot_Password";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Forgot_Password";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Forgot_Password_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

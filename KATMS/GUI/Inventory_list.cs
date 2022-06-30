@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using KATMS.GUI;
+using KATMS.BL;
 
 namespace KATMS.GUI
 {
@@ -38,6 +39,39 @@ namespace KATMS.GUI
             Inventory_search inv_Search = new Inventory_search();
             inv_Search.Show();
             this.Hide();
+        }
+
+        private void InventoryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Inventory_list_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'kATMSdbDataSet.Parttb' table. You can move, or remove it, as needed.
+            this.parttbTableAdapter.Fill(this.kATMSdbDataSet.Parttb);
+
+        }
+
+        private void btHome_Click(object sender, EventArgs e)
+        {
+            if (UserInfo.role == "Admin")
+            {
+                AdminMenu adminMenu = new AdminMenu();
+                adminMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                ManagerMenu managerMenu = new ManagerMenu();
+                managerMenu.Show();
+                this.Hide();
+            }
+        }
+
+        private void Inventory_list_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

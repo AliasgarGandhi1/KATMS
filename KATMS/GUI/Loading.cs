@@ -23,13 +23,21 @@ namespace KATMS.GUI
             progressbar.Maximum = 100;
 
             for (int i = 0; i <= 100; i++)
-                    progressbar.Value = i;
+            {
+                progressbar.Value = i;
+            }
+        }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+
+            System.Threading.Thread.Sleep(1000);
 
             if (progressbar.Value == 100)
             {
                 Login login = new Login();
-                login.Show();
                 this.Hide();
+                login.Show();
             }
         }
     }

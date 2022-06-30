@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chbShowPassword = new System.Windows.Forms.CheckBox();
             this.lblForgotPass = new System.Windows.Forms.LinkLabel();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel1.Controls.Add(this.chbShowPassword);
             this.panel1.Controls.Add(this.lblForgotPass);
             this.panel1.Controls.Add(this.txtPassword);
             this.panel1.Controls.Add(this.label2);
@@ -56,16 +58,28 @@
             this.panel1.Size = new System.Drawing.Size(622, 693);
             this.panel1.TabIndex = 1;
             // 
+            // chbShowPassword
+            // 
+            this.chbShowPassword.AutoSize = true;
+            this.chbShowPassword.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.chbShowPassword.Location = new System.Drawing.Point(290, 300);
+            this.chbShowPassword.Name = "chbShowPassword";
+            this.chbShowPassword.Size = new System.Drawing.Size(148, 27);
+            this.chbShowPassword.TabIndex = 3;
+            this.chbShowPassword.Text = "Show Password";
+            this.chbShowPassword.UseVisualStyleBackColor = true;
+            this.chbShowPassword.CheckedChanged += new System.EventHandler(this.chbShowPassword_CheckedChanged);
+            // 
             // lblForgotPass
             // 
             this.lblForgotPass.AutoSize = true;
             this.lblForgotPass.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.lblForgotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
             this.lblForgotPass.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
-            this.lblForgotPass.Location = new System.Drawing.Point(94, 328);
+            this.lblForgotPass.Location = new System.Drawing.Point(94, 344);
             this.lblForgotPass.Name = "lblForgotPass";
             this.lblForgotPass.Size = new System.Drawing.Size(216, 32);
-            this.lblForgotPass.TabIndex = 8;
+            this.lblForgotPass.TabIndex = 5;
             this.lblForgotPass.TabStop = true;
             this.lblForgotPass.Text = "Forgot Password?";
             this.lblForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblForgotPass_LinkClicked);
@@ -77,7 +91,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(251, 34);
-            this.txtPassword.TabIndex = 7;
+            this.txtPassword.TabIndex = 2;
             // 
             // label2
             // 
@@ -96,7 +110,7 @@
             this.txtUserName.Location = new System.Drawing.Point(290, 182);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(251, 34);
-            this.txtUserName.TabIndex = 5;
+            this.txtUserName.TabIndex = 1;
             // 
             // label1
             // 
@@ -124,7 +138,7 @@
             this.btSignIn.Location = new System.Drawing.Point(100, 416);
             this.btSignIn.Name = "btSignIn";
             this.btSignIn.Size = new System.Drawing.Size(210, 102);
-            this.btSignIn.TabIndex = 3;
+            this.btSignIn.TabIndex = 4;
             this.btSignIn.Text = "Sign In";
             this.btSignIn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(119)))));
             this.btSignIn.UseVisualStyleBackColor = false;
@@ -152,6 +166,7 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -169,5 +184,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox chbShowPassword;
     }
 }

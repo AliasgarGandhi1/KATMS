@@ -45,6 +45,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             // 
             // progressbar
             // 
@@ -83,7 +84,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressbar);
             this.Controls.Add(this.pictureBox1);
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "Loading";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loading";
